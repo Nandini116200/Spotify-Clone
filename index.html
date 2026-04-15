@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - your favourite music is here</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="spotify.logo.png" alt="Spotify"> Spotify
+            </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="songlist">
+            <h1>My Favorite Songs Collection 🎵</h1>
+
+            <div class="songItemContainer">
+
+                
+                <div class="songItem">
+                    <img src="cover.jpg" alt="1">
+                    <span class="songName">We Rollin</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            3:19  
+                            <i id="1" class="fa-solid fa-circle-play songItemPlay"></i>
+                        </span>
+                    </span>
+                </div>
+
+                <!-- SONG ITEM 2 -->
+                <div class="songItem">
+                    <img src="cover.jpg" alt="1">
+                    <span class="songName">We Rollin</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            3:19  
+                            <i id="2" class="fa-solid fa-circle-play songItemPlay"></i>
+                        </span>
+                    </span>
+                </div>
+
+                <!-- SONG ITEM 3 -->
+                <div class="songItem">
+                    <img src="cover.jpg" alt="1">
+                    <span class="songName">We Rollin</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            3:19  
+                            <i id="3" class="fa-solid fa-circle-play songItemPlay"></i>
+                        </span>
+                    </span>
+                </div>
+
+                <!-- SONG ITEM 4 -->
+                <div class="songItem">
+                    <img src="cover.jpg" alt="1">
+                    <span class="songName">We Rollin</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            3:19  
+                            <i id="4" class="fa-solid fa-circle-play songItemPlay"></i>
+                        </span>
+                    </span>
+                </div>
+
+                <!-- SONG ITEM 5 -->
+                <div class="songItem">
+                    <img src="cover.jpg" alt="1">
+                    <span class="songName">We Rollin</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            3:19  
+                            <i id="5" class="fa-solid fa-circle-play songItemPlay"></i>
+                        </span>
+                    </span>
+                </div>
+
+                <!-- SONG ITEM 6 -->
+                <div class="songItem">
+                    <img src="cover.jpg" alt="1">
+                    <span class="songName">We Rollin</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            3:19  
+                            <i id="6" class="fa-solid fa-circle-play songItemPlay"></i>
+                        </span>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="songBanner"></div>
+
+    </div>
+
+    <!-- BOTTOM PLAYER -->
+    <div class="bottom">
+
+        <input type="range" id="myProgressBar" min="0" value="0" max="100">
+
+        <div class="icons">
+            <i class="fa-solid fa-backward fa-2x" id="previous"></i>
+            <i id="masterPlay" class="fa-solid fa-circle-play fa-2x"></i>
+            <i class="fa-solid fa-forward fa-2x" id="next"></i>
+        </div>
+
+        <div class="songinfo">
+            <img src="gif.png.gif" width="42px" id="gif" alt=""> <span id="masterSongName"></span>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
